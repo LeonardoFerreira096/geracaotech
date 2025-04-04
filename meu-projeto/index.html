@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Identificador de Triângulo por Lados</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Identificador de Triângulo por Lados</h1>
+        
+        <div class="input-form">
+            <label for="lado1">Lado 1:</label>
+            <input type="number" id="lado1" placeholder="Digite o lado 1">
+            
+            <label for="lado2">Lado 2:</label>
+            <input type="number" id="lado2" placeholder="Digite o lado 2">
+            
+            <label for="lado3">Lado 3:</label>
+            <input type="number" id="lado3" placeholder="Digite o lado 3">
+            
+            <button onclick="identificarTriangulo()">Identificar Triângulo</button>
+        </div>
+        
+        <div class="resultado">
+            <p id="resultado"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
