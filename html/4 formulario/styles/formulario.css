@@ -32,8 +32,8 @@ main{
 .btn{
     background-color: var(--warning);
     border: auto;
-    width: 10px;
-    padding: 10px;
+    width: auto;
+    padding: auto;
     margin: auto;
     cursor: pointer;
     border-radius: 6px;
@@ -48,7 +48,7 @@ main{
 }
 
 .btn:hover{
-    background-color: var(--tertiary);
+    background-color: var(--error)
     color: #f5f5dc;
     border-radius: 6px;
 }

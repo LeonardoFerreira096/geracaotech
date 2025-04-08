@@ -1,0 +1,31 @@
+main{
+    background-color: #ffffff;
+    padding: 5px;
+    margin: 10px;
+  
+}
+
+body{
+    background-color: #2e2d8e;
+    margin: auto;
+    padding: auto;
+}
+
+.pcadastro{
+    margin-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: auto;
+    margin: auto;
+}
+
+#nome{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+#email{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+    border-radius: 6px;
+}
