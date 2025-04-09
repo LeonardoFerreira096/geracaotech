@@ -1,10 +1,7 @@
 :root{
-    --primary : #2b4f92;
-    --secondary: #8b9ab6;
+    --primary : #100a36;
+    --secondary: #d76704;
     --tertiary: #0c6854;
-    --error: #fa940f;
-    --success:#20e70e;
-    --warning:#e5ff00;
 }
 
 *{

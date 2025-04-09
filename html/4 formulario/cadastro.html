@@ -10,18 +10,18 @@
 
 <body>
     <main>
-        <h1 class="pcadastro">Cadastro</h1>
+        <h1>Cadastro</h1>
         <form>
             <div>
                 <label for="nome">Nome</label>
-                <input type="text" name="" id="nome">
+                <input type="text" name="" id="nome" placeholder="digite seu nome">
             </div>
             <div>
                 <label for="email">Email</label>
                 <input type="email" name="email" id="email">
             </div>
             <div>
-                <label for="">Data de Nascimento</label>
+                <label class="ano">Data de Nascimento</label>
                 <select name="" id="">
                     <option value="">1</option>
                     <option value="">2</option>
@@ -93,25 +93,30 @@
 
                 <input type="radio" name="genero" id="">
                 <label for="outros">Outros</label>
-                <textarea name="" id="outros" placeholder="Em caso de marcar outro, descreva"></textarea>
+                <textarea name="" id="outros" placeholder="Descreva" name="genero" id="" cols="30" rows="5"  ></textarea>
             </div>
-            <div>
-                <label for="">Stack</label>
-                <!-- Para clonar uma seleção alt + Shift + Seta para baixo -->
+            <div class="div-stack">
+                <label for="" id="stack">Stack</label>
+                <div>
                 <input type="checkbox" name="stack" id="html">
                 <label for="html">HTML</label>
-
+                </div>
+                <div>
                 <input type="checkbox" name="stack" id="css">
                 <label for="css">CSS</label>
-
+                </div>
+                <div>
                 <input type="checkbox" name="stack" id="javascript">
                 <label for="javascript">JavaScript</label>
-
+                </div>
+                <div>
                 <input type="checkbox" name="stack" id="node">
                 <label for="node">Node</label>
-
+                </div>
+                 <div>
                 <input type="checkbox" name="stack" id="sql">
                 <label for="sql">SQL</label>
+                </div>
                 
             </div>
             

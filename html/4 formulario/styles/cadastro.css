@@ -1,31 +1,74 @@
-main{
-    background-color: #ffffff;
-    padding: 5px;
-    margin: 10px;
-  
+:root{
+    --primary: #100a36;
+    --secondary:#d76704;
+    --tertiary: #ffffff;
+}
+
+
+*{
+   margin: 0;   
+   padding: 0;
+   outline: 0;
+   border: 0;
+   box-sizing: border-box;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body{
-    background-color: #2e2d8e;
-    margin: auto;
-    padding: auto;
+    background-color: var(--primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    align-items: ;
 }
 
-.pcadastro{
-    margin-bottom: 20px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding: auto;
-    margin: auto;
+main{
+    background-color: var(--secondary);
+    width: 50%;
+    padding: 15px;
+    border-radius: 5%;
 }
 
-#nome{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    cursor: pointer;
+#nome, #email, #senha{
+    width: 100%;
+    padding: 5px;
+    border-radius: 6px;
+    margin: 5px 0;
+}
+
+.ano{
+    display: block;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 6px;
     border-radius: 6px;
 }
 
-#email{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    cursor: pointer;
+textarea{
+    width: 100%;
+    margin-top: 15px 0;
+}
+
+#genero{
+    display: block;
+    margin: 5px 0;
+}
+
+.div-stack{
+     display: block;
+     margin: 10px 0;
+
+}
+
+button{
+    display: block;
+    width: 100%;
     border-radius: 6px;
+    padding: 8px 0;
+    cursor: pointer;
+    background-color: var(--tertiary);
+    color: black;
+
 }
