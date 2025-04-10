@@ -21,12 +21,12 @@ body{
     align-items: center;
     height: 100vh;
     overflow: hidden;
-    align-items: ;
+    align-items: 1px;
 }
 
 main{
     background-color: var(--secondary);
-    width: 50%;
+    width: 20%;
     padding: 15px;
     border-radius: 5%;
 }
