@@ -5,11 +5,13 @@
     outline: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: "Inter", sans-serif;
 }
 
 .div-card{
     border: 1px solid #9f9c9c;
     width: 20%;
+    padding: 10px;
 }
 
 .div-card img{
@@ -25,8 +27,8 @@
 }
 
 .tag-p{
-    top: 0;
-    right: 0;
+    top: 10px;
+    right: 10px;
     /* z-index: -1; elemento para sobreposição*/
     position: absolute;
     background-color: #ec5002;
@@ -39,4 +41,38 @@
     position: relative;
     display: flex;
     justify-content: center;
+    background-color: #bebe37;
+}
+
+h2 > a{
+    font-size: 20px;
+}
+
+.div-titulo h1{
+    
+}
+
+.div-titulo button{
+color: #bebe37;
+}
+
+.div-titulo{
+    font-size: 20px;
+    justify-content: space-between;
+}
+
+.div-titulo{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.div-texto{
+    padding: 10px;
+
+}
+
+.span-valor{
+    font-size: 28px;
+    font-weight: 600;
 }
