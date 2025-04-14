@@ -18,6 +18,23 @@ header{
     color: white;
     justify-content: space-between;
     padding: 30px 100px;
+
+}
+
+.form-header{
+    width: 40%;
+    display: flex;
+}
+
+.form-header input{
+    border-radius: 5px 0 0 5px;
+    height: 40px;
+    width: 70%;
+}
+
+.form-header button{
+    border-radius: 5px 0 0 5px;
+    padding: 12px;
 }
 
 .nav-header, .nav-header ul{
