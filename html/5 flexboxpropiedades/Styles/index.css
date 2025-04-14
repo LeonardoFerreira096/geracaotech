@@ -9,14 +9,15 @@
 }
 
 body{
-    background-color: #ffffff;
+    background-color: #c9c9c9;
 }
 
 header{
-    background-color: #9f9c9c;
+    background-color: #48c709;
     display: flex;
     color: white;
     justify-content: space-between;
+    align-items: center;
     padding: 30px 100px;
 
 }
@@ -29,11 +30,11 @@ header{
 .form-header input{
     border-radius: 5px 0 0 5px;
     height: 40px;
-    width: 70%;
+    width: 80%;
 }
 
 .form-header button{
-    border-radius: 5px 0 0 5px;
+    border-radius: 0px 5px 5px 0px;
     padding: 12px;
 }
 
@@ -49,7 +50,7 @@ header{
 
 .div-card{
     border: 1px solid #9f9c9c;
-    width:15%;
+    width:230px;
 }
 
 .div-card img{
@@ -59,6 +60,7 @@ header{
 
 .section-cards{
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
@@ -78,6 +80,7 @@ header{
     display: flex;
     justify-content: center;
     background-color: #474746;
+    height: 270px;
 }
 
 h2 > a{
