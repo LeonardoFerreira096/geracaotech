@@ -36,6 +36,11 @@ header{
 .form-header button{
     border-radius: 0px 5px 5px 0px;
     padding: 12px;
+
+}
+
+.form-header button:hover{
+    background-color: #000;
 }
 
 .nav-header, .nav-header ul{
@@ -124,4 +129,8 @@ cursor: pointer;
 .span-valor{
     font-size: 28px;
     font-weight: 600;
+}
+
+@media screen and (width <= 998px) {
+    
 }
