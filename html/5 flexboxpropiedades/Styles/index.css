@@ -8,22 +8,41 @@
     font-family: "Inter", sans-serif;
 }
 
+body{
+    background-color: #ffffff;
+}
+
+header{
+    background-color: #9f9c9c;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+
+.nav-header, .nav-header ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.lista-icone{
+    display: none;
+}
+
 .div-card{
     border: 1px solid #9f9c9c;
-    width: 20%;
-    padding: 10px;
+    width:15%;
 }
 
 .div-card img{
-    position: relative;
-    margin: 0;
-    margin: 5%;
+   width: 80%;
 
 }
 
 .section-cards{
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 
 .tag-p{
@@ -33,7 +52,7 @@
     position: absolute;
     background-color: #ec5002;
     width: fit-content;
-    padding: 3px;
+    padding: 1px 3px;
     border-radius: 10px;
 }
 
@@ -41,25 +60,35 @@
     position: relative;
     display: flex;
     justify-content: center;
-    background-color: #bebe37;
+    background-color: #474746;
 }
 
 h2 > a{
-    font-size: 20px;
+    font-size: 12px;
 }
 
 .div-titulo h1{
-    
+  font-size: 20px;
 }
 
 .div-titulo button{
-color: #bebe37;
+color: #000;
+color: #000000;
+width: 25px;
+height: 25px;
+font-size: 20px;
+font-weight: 600;
+padding-bottom: 2px;
+border-radius: 50px;
+cursor: pointer;
 }
 
-.div-titulo{
-    font-size: 20px;
-    justify-content: space-between;
+.div-titulo button:hover{
+    background-color: #ffff;
+    color: #000;
+    border: 1px solid #000;
 }
+
 
 .div-titulo{
     display: flex;
