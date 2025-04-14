@@ -19,6 +19,11 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 30px 100px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+
 
 }
 
@@ -65,6 +70,7 @@ header{
 
 .section-cards{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
 }
@@ -130,7 +136,26 @@ cursor: pointer;
     font-size: 28px;
     font-weight: 600;
 }
+/* width <= 1045 ou max-width: 1045) tablet deitado */
+@media screen and (width <= 1045px) {
+    header{
+        flex-wrap: wrap;
+    }
 
-@media screen and (width <= 998px) {
-    
+    .form-header{
+        order: 2;
+        width: 100%;
+    }
+
+    .form-header input{
+        width: 120%;
+    }
+
+    .lista-icone{
+        display: inline;
+    }
+
+    .lista-links li {
+        display: none;
+    }
 }
