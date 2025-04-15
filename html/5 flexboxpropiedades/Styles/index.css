@@ -8,9 +8,6 @@
     font-family: "Inter", sans-serif;
 }
 
-body{
-    background-color: #c9c9c9;
-}
 
 header{
     background-color: #48c709;
@@ -58,8 +55,19 @@ header{
     display: none;
 }
 
+main{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.aside-filtro{
+    position: sticky;
+    top: 110px;
+    height: fit-content;
+}
+
 .div-card{
-    border: 1px solid #9f9c9c;
+    border: 1px solid #48c709;
     width:230px;
 }
 
@@ -90,7 +98,7 @@ header{
     position: relative;
     display: flex;
     justify-content: center;
-    background-color: #474746;
+    background-color: #494949;
     height: 270px;
 }
 
@@ -115,9 +123,9 @@ cursor: pointer;
 }
 
 .div-titulo button:hover{
-    background-color: #ffff;
-    color: #000;
-    border: 1px solid #000;
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #b01515;
 }
 
 
