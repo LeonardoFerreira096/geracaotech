@@ -144,6 +144,23 @@ cursor: pointer;
     font-size: 28px;
     font-weight: 600;
 }
+
+footer{
+    background-color: #494949;
+    color: white;
+    display: grid;
+    grid
+}
+
+.nav-footer a{
+    color: white;
+
+}
+.nav-footer a:hover{
+    text-decoration: underline;
+    
+}
+
 /* width <= 1045 ou max-width: 1045) tablet deitado */
 @media screen and (width <= 1045px) {
     header{
