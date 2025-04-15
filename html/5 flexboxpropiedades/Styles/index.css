@@ -147,35 +147,53 @@ cursor: pointer;
 
 footer{
     padding: 20px 100px;
-    background-color: #494949;
+    background-color: #48c709;
     color: #ffffff;
     display: block;
 }
 
 
-.div-footer-grid {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
+.div-footer-flex {
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav-footer{
    display: grid;
    grid-template-columns: 1fr 2fr;
+   padding-right: 100px;
 }
 
 .nav-footer ul{
     list-style: none;
+    
 }
 
 .nav-footer a{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    color: #ffffff;
+    padding: 6px;
 }
 
 
 .nav-footer a:hover{
     text-decoration: underline; 
 }
+
+hr{
+    border: 1px solid white;
+    width: 50%;
+}
+
+.div-footer-text {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-top: 20px;
+   gap: 10px;
+}
+
 
 /* width <= 1045 ou max-width: 1045) tablet deitado */
 @media screen and (width <= 1045px) {
