@@ -153,15 +153,14 @@ footer{
 }
 
 
-.div-footer-flex {
-  display: flex;
-  justify-content: space-between;
+.div-footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
 }
 
 .nav-footer{
    display: grid;
    grid-template-columns: 1fr 2fr;
-   padding-right: 100px;
 }
 
 .nav-footer ul{
@@ -173,7 +172,7 @@ footer{
     display: grid;
     grid-template-columns: 1fr 1fr;
     color: #ffffff;
-    padding: 6px;
+    padding: 10px;
 }
 
 
