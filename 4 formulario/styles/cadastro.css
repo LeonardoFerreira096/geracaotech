@@ -1,0 +1,74 @@
+:root{
+    --primary: #100a36;
+    --secondary:#d76704;
+    --tertiary: #ffffff;
+}
+
+
+*{
+   margin: 0;   
+   padding: 0;
+   outline: 0;
+   border: 0;
+   box-sizing: border-box;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: var(--primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    align-items: 1px;
+}
+
+main{
+    background-color: var(--secondary);
+    width: 20%;
+    padding: 15px;
+    border-radius: 5%;
+}
+
+#nome, #email, #senha{
+    width: 100%;
+    padding: 5px;
+    border-radius: 6px;
+    margin: 5px 0;
+}
+
+.ano{
+    display: block;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 6px;
+    border-radius: 6px;
+}
+
+textarea{
+    width: 100%;
+    margin-top: 15px 0;
+}
+
+#genero{
+    display: block;
+    margin: 5px 0;
+}
+
+.div-stack{
+     display: block;
+     margin: 10px 0;
+
+}
+
+button{
+    display: block;
+    width: 100%;
+    border-radius: 6px;
+    padding: 8px 0;
+    cursor: pointer;
+    background-color: var(--tertiary);
+    color: black;
+
+}
