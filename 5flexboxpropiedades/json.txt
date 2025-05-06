@@ -1,0 +1,13 @@
+JSON - Javascript Object Notation
+
+Formato de tenxxo com base em 
+
+
+
+
+1. Fortato objeto:
+{
+    id: 1,
+    nome: "um nome",
+    endereco: "um endereco"
+}
