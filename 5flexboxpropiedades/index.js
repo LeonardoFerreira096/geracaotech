@@ -12,42 +12,42 @@ searchButton.addEventListener('click', (Event) => {
 function fetchBooks(query) {
     const Livros = [
         {
-            img: '/imags/a.jpg',
+            img: './imags/a.jpg',
             titulo: 'Batman Animate',
             categoria: 'Ação',
             preco: 69.99,
             desconto: true
         },
         {
-            img: '/imags/612qUTVvMpL._AC_UY327_QL65_.jpg',
+            img: './imags/612qUTVvMpL._AC_UY327_QL65_.jpg',
             titulo: 'Batman e Bane',
             categoria: 'Fantasia',
             preco: 69.99,
             desconto: true
         },
         {
-            img: '/imags/a.jpg',
+            img: './imags/a.jpg',
             titulo: 'Batman x Coringa',
             categoria: 'Terro',
             preco: 69.99,
             desconto: false
         },
         {
-            img: '/imags/71v7OtJaipL._AC_UY327_QL65_.jpg',
+            img: './imags/71v7OtJaipL._AC_UY327_QL65_.jpg',
             titulo: 'Batman Hust',
             categoria: 'Suspense',
             preco: 69.99,
             desconto: true
         },
         {
-            img: '/imags/71XDl6Q6SrL._AC_UY327_QL65_.jpg',
+            img: './imags/71XDl6Q6SrL._AC_UY327_QL65_.jpg',
             titulo: 'Batman Piada Mortal',
             categoria: 'Animação',
             preco: 69.99,
             desconto: true
         },
         {
-            img: '/imags/91u+ZenXzKL._AC_UY327_QL65_.jpg',
+            img: './imags/91u+ZenXzKL._AC_UY327_QL65_.jpg',
             titulo: 'Batman e Coringa Dupla fatal',
             categoria: 'Terror Psicologico',
             preco: 69.99,
